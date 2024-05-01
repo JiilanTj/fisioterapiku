@@ -1,0 +1,17 @@
+<!-- res/drawable/circle_white_stroke.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background circle (transparent) -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <!-- White stroke (adjust stroke width as needed) -->
+    <item android:left="1dp" android:right="1dp" android:top="1dp" android:bottom="1dp">
+        <shape android:shape="oval">
+            <stroke
+                android:color="#FFFFFF"
+                android:width="2dp" />
+        </shape>
+    </item>
+</layer-list>
